@@ -1,0 +1,206 @@
+<template>
+	<div class="slds-grid slds-wrap">
+		<div class="slds-col">
+			<div class="slds-table_edit_container slds-is-relative slds-scrollable_x">
+				<table aria-multiselectable="true"
+					class="slds-table slds-no-cell-focus slds-table_bordered slds-table_edit slds-table_fixed-layout slds-table_resizable-cols"
+					role="grid"
+					style="width:30rem;margin-left: auto;margin-right: auto;border: 1px solid lightgray;border-radius: 8px;overflow: hidden;"
+					aria-label="Example default inline edit table with cell focused">
+					<thead>
+						<tr class="slds-line-height_reset">
+							<th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+								style="width:8.75rem">
+								<div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+									tabindex="-1">
+									<div class="slds-grid slds-grid_vertical-align-center">
+										<span class="c-text-center" title="Name">Metric</span>
+									</div>
+								</div>
+							</th>
+							<th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col"
+								style="width:8.75rem">
+								<div class="slds-th__action slds-text-link_reset c-table-header-padding" href="#" role="button"
+									tabindex="-1">
+									<div class="slds-grid slds-grid_vertical-align-center">
+										<span class="c-text-center" title="Name">Value</span>
+									</div>
+								</div>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Approval Value</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Disbursal Value</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">DSA Payout (Slab Wise)</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Fixed Hiring Cost at DSAs</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">BIG DSA Day Earnings</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Front Loading Incentives for DSAs</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Additional Incentives to DSAs</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Amazon Voucher (DSA)</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Amazon Voucher (Internal Team)</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Subventions</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="slds-col">
+			<div class="slds-table_edit_container slds-is-relative slds-scrollable_x slds-p-top_large">
+				<table aria-multiselectable="true"
+					class="slds-table slds-no-cell-focus slds-table_bordered slds-table_edit slds-table_fixed-layout slds-table_resizable-cols"
+					role="grid"
+					style="width:30rem;margin-left: auto;margin-right: auto;border: 1px solid lightgray;border-radius: 8px;overflow: hidden;"
+					aria-label="Example default inline edit table with cell focused">
+					<tbody>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Net CAC at Approval (in %)</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+						<tr aria-selected="false" class="slds-hint-parent">
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread c-justify-content-center">
+								<span class="slds-form-element__label c-text-center">Net CAC at Disbursal (in %)</span>
+								</span>
+							</td>
+							<td class="slds-cell-edit" role="gridcell">
+								<span class="slds-grid slds-grid_align-spread">
+                <input type="text" required="" class="slds-input" value="" data-table="1"/>
+						</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="slds-col">
+			<div class="slds-table_edit_container slds-is-relative slds-scrollable_x slds-p-top_large">
+				<div class="slds-card"
+					style="width:30rem;margin-left: auto;margin-right: auto;border: 1px solid lightgray;border-radius: 8px;overflow: hidden;">
+					<div class="slds-card__body slds-card__body_inner" style="justify-content: center;display: flex;gap: 2rem;">
+						<button class="slds-button slds-button_brand">Calculate</button>
+						<button class="slds-button slds-button_brand">Submit for Approval</button>
+						<button class="slds-button slds-button_brand">Deploy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
